@@ -2772,3 +2772,6 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o ".
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesCalculosTP1.o "..\\funcionesCalculosTP1.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o dataInOutValidateTP1.o "..\\dataInOutValidateTP1.c" 
 gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
