@@ -1,0 +1,17 @@
+/*
+ * funcionesImpresionPorPantallaTP1.h
+ *
+ *  Created on: 14 abr 2022
+ *      Author: Juan
+ */
+
+#ifndef SCR_FUNCIONESIMPRESIONPORPANTALLATP1_H_
+#define SCR_FUNCIONESIMPRESIONPORPANTALLATP1_H_
+
+class funcionesImpresionPorPantallaTP1 {
+public:
+	funcionesImpresionPorPantallaTP1();
+	virtual ~funcionesImpresionPorPantallaTP1();
+};
+#endif /* SCR_FUNCIONESIMPRESIONPORPANTALLATP1_H_ */
+

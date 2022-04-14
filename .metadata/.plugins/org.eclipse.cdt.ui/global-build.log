@@ -2,3 +2,2773 @@
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
 gcc -o TP1.exe TP1.o 
+17:02:48 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c:16:6: warning: return type of 'main' is not 'int' [-Wmain]
+   16 | void main(void) {
+      |      ^~~~
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+17:11:23 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+   17 | void main(void) {
+      |      ^~~~
+..\TP1.c: In function 'mostrarMenu':
+..\TP1.c:38:2: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+   38 |  clrscr();
+      |  ^~~~~~
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: TP1.o: in function `mostrarMenu':
+C:\Users\Juan\Trabajos_Practicos_Laboratorio1\TP1\Debug/../TP1.c:38: undefined reference to `clrscr'
+collect2.exe: error: ld returned 1 exit status
+17:13:50 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c:17:6: warning: return type of 'main' is not 'int' [-Wmain]
+   17 | void main(void) {
+      |      ^~~~
+gcc -o TP1.exe TP1.o 
+17:14:33 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:14:38 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:30 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:17:50 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:18:15 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c:16:6: warning: return type of 'main' is not 'int' [-Wmain]
+   16 | void main(void) {
+      |      ^~~~
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:18:49 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:22:51 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -o TP1.exe TP1.o 
+17:24:46 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:25:09 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:25:54 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:28:16 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:28:33 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:29:01 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:29:51 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:30:12 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:42:58 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:49:36 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+22:37:35 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'main':
+..\TP1.c:38:2: error: too few arguments to function 'opcionElegida'
+   38 |  opcionElegida(opcionSeleccionada, vectorDatos);
+      |  ^~~~~~~~~~~~~
+..\TP1.c:18:7: note: declared here
+   18 | float opcionElegida(int,float vec[], float vecCostos1[], float vecCostos2[]);
+      |       ^~~~~~~~~~~~~
+..\TP1.c:32:8: warning: unused variable 'vectorCostosAA' [-Wunused-variable]
+   32 |  float vectorCostosAA[5];
+      |        ^~~~~~~~~~~~~~
+..\TP1.c:31:8: warning: unused variable 'vectorCostosLatam' [-Wunused-variable]
+   31 |  float vectorCostosLatam[5];
+      |        ^~~~~~~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   73 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:77:4: error: a label can only be part of a statement and a declaration is not a statement
+   77 |    int opcion;
+      |    ^~~
+..\TP1.c:82:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   82 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:91:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   91 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:92:48: error: incompatible type for argument 2 of 'cargarCostos'
+   92 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                     ~~~~~~~~~~~^~~
+      |                                                |
+      |                                                float
+..\TP1.c:23:31: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float vec[]);
+      |                         ~~~~~~^~~~~
+..\TP1.c:92:22: error: too many arguments to function 'cargarCostos'
+   92 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                      ^~~~~~~~~~~~
+..\TP1.c:23:7: note: declared here
+   23 | float cargarCostos(int, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c:93:45: error: incompatible type for argument 2 of 'cargarCostos'
+   93 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                  ~~~~~~~~~~~^~~
+      |                                             |
+      |                                             float
+..\TP1.c:23:31: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float vec[]);
+      |                         ~~~~~~^~~~~
+..\TP1.c:93:19: error: too many arguments to function 'cargarCostos'
+   93 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                   ^~~~~~~~~~~~
+..\TP1.c:23:7: note: declared here
+   23 | float cargarCostos(int, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c:100:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  100 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:103:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  103 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:112:49: error: expected ')' before ';' token
+  112 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:129:10: error: expected ';' before '}' token
+  129 |    break;
+      |          ^
+      |          ;
+  130 |  }
+      |  ~        
+..\TP1.c:131:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  131 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:167:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  167 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:167:9: warning: too many arguments for format [-Wformat-extra-args]
+  167 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:171:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  171 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:171:10: warning: too many arguments for format [-Wformat-extra-args]
+  171 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:181:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  181 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:181:8: warning: too many arguments for format [-Wformat-extra-args]
+  181 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:185:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  185 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:185:9: warning: too many arguments for format [-Wformat-extra-args]
+  185 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:191:7: error: conflicting types for 'cargarCostos'
+  191 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:132:1: warning: control reaches end of non-void function [-Wreturn-type]
+  132 | }
+      | ^
+22:39:02 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   73 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:77:4: error: a label can only be part of a statement and a declaration is not a statement
+   77 |    int opcion;
+      |    ^~~
+..\TP1.c:82:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   82 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:91:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   91 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:92:48: error: incompatible type for argument 2 of 'cargarCostos'
+   92 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                     ~~~~~~~~~~~^~~
+      |                                                |
+      |                                                float
+..\TP1.c:23:31: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float vec[]);
+      |                         ~~~~~~^~~~~
+..\TP1.c:92:22: error: too many arguments to function 'cargarCostos'
+   92 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                      ^~~~~~~~~~~~
+..\TP1.c:23:7: note: declared here
+   23 | float cargarCostos(int, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c:93:45: error: incompatible type for argument 2 of 'cargarCostos'
+   93 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                  ~~~~~~~~~~~^~~
+      |                                             |
+      |                                             float
+..\TP1.c:23:31: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float vec[]);
+      |                         ~~~~~~^~~~~
+..\TP1.c:93:19: error: too many arguments to function 'cargarCostos'
+   93 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                   ^~~~~~~~~~~~
+..\TP1.c:23:7: note: declared here
+   23 | float cargarCostos(int, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c:100:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  100 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:103:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  103 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:112:49: error: expected ')' before ';' token
+  112 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:129:10: error: expected ';' before '}' token
+  129 |    break;
+      |          ^
+      |          ;
+  130 |  }
+      |  ~        
+..\TP1.c:131:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  131 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:167:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  167 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:167:9: warning: too many arguments for format [-Wformat-extra-args]
+  167 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:171:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  171 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:171:10: warning: too many arguments for format [-Wformat-extra-args]
+  171 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:181:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  181 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:181:8: warning: too many arguments for format [-Wformat-extra-args]
+  181 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:185:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  185 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:185:9: warning: too many arguments for format [-Wformat-extra-args]
+  185 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:191:7: error: conflicting types for 'cargarCostos'
+  191 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:132:1: warning: control reaches end of non-void function [-Wreturn-type]
+  132 | }
+      | ^
+22:40:28 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   73 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:77:4: error: a label can only be part of a statement and a declaration is not a statement
+   77 |    int opcion;
+      |    ^~~
+..\TP1.c:82:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   82 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:91:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   91 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:92:63: error: incompatible type for argument 3 of 'cargarCostos'
+   92 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:93:60: error: incompatible type for argument 3 of 'cargarCostos'
+   93 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:100:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  100 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:103:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  103 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:112:49: error: expected ')' before ';' token
+  112 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:129:10: error: expected ';' before '}' token
+  129 |    break;
+      |          ^
+      |          ;
+  130 |  }
+      |  ~        
+..\TP1.c:131:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  131 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:167:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  167 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:167:9: warning: too many arguments for format [-Wformat-extra-args]
+  167 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:171:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  171 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:171:10: warning: too many arguments for format [-Wformat-extra-args]
+  171 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:181:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  181 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:181:8: warning: too many arguments for format [-Wformat-extra-args]
+  181 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:185:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  185 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:185:9: warning: too many arguments for format [-Wformat-extra-args]
+  185 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:191:7: error: conflicting types for 'cargarCostos'
+  191 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:132:1: warning: control reaches end of non-void function [-Wreturn-type]
+  132 | }
+      | ^
+22:45:09 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:75:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   75 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:79:4: error: a label can only be part of a statement and a declaration is not a statement
+   79 |    int opcion;
+      |    ^~~
+..\TP1.c:84:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   84 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:87:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   87 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:93:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   93 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:94:63: error: incompatible type for argument 3 of 'cargarCostos'
+   94 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:95:60: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:102:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  102 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:105:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  105 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:114:49: error: expected ')' before ';' token
+  114 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:131:10: error: expected ';' before '}' token
+  131 |    break;
+      |          ^
+      |          ;
+  132 |  }
+      |  ~        
+..\TP1.c:133:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  133 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:169:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  169 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:169:9: warning: too many arguments for format [-Wformat-extra-args]
+  169 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:173:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  173 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:173:10: warning: too many arguments for format [-Wformat-extra-args]
+  173 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:183:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  183 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:183:8: warning: too many arguments for format [-Wformat-extra-args]
+  183 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:187:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  187 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:187:9: warning: too many arguments for format [-Wformat-extra-args]
+  187 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:193:7: error: conflicting types for 'cargarCostos'
+  193 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:72:3: warning: statement will never be executed [-Wswitch-unreachable]
+   72 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:134:1: warning: control reaches end of non-void function [-Wreturn-type]
+  134 | }
+      | ^
+22:45:44 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:75:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   75 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:79:4: error: a label can only be part of a statement and a declaration is not a statement
+   79 |    int opcion;
+      |    ^~~
+..\TP1.c:84:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   84 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:87:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   87 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:93:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   93 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:94:63: error: incompatible type for argument 3 of 'cargarCostos'
+   94 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:95:60: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:102:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  102 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:105:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  105 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:114:49: error: expected ')' before ';' token
+  114 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:131:10: error: expected ';' before '}' token
+  131 |    break;
+      |          ^
+      |          ;
+  132 |  }
+      |  ~        
+..\TP1.c:133:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  133 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:169:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  169 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:169:9: warning: too many arguments for format [-Wformat-extra-args]
+  169 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:173:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  173 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:173:10: warning: too many arguments for format [-Wformat-extra-args]
+  173 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:183:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  183 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:183:8: warning: too many arguments for format [-Wformat-extra-args]
+  183 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:187:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  187 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:187:9: warning: too many arguments for format [-Wformat-extra-args]
+  187 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:193:7: error: conflicting types for 'cargarCostos'
+  193 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:72:3: warning: statement will never be executed [-Wswitch-unreachable]
+   72 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:134:1: warning: control reaches end of non-void function [-Wreturn-type]
+  134 | }
+      | ^
+22:46:39 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:75:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   75 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:79:4: error: a label can only be part of a statement and a declaration is not a statement
+   79 |    int opcion;
+      |    ^~~
+..\TP1.c:84:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   84 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:87:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   87 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:93:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   93 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:94:63: error: incompatible type for argument 3 of 'cargarCostos'
+   94 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:95:60: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:102:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  102 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:105:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  105 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:114:49: error: expected ')' before ';' token
+  114 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:131:10: error: expected ';' before '}' token
+  131 |    break;
+      |          ^
+      |          ;
+  132 |  }
+      |  ~        
+..\TP1.c:133:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  133 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:169:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  169 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:169:9: warning: too many arguments for format [-Wformat-extra-args]
+  169 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:173:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  173 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:173:10: warning: too many arguments for format [-Wformat-extra-args]
+  173 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:183:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  183 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:183:8: warning: too many arguments for format [-Wformat-extra-args]
+  183 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:187:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  187 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:187:9: warning: too many arguments for format [-Wformat-extra-args]
+  187 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:193:7: error: conflicting types for 'cargarCostos'
+  193 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:72:3: warning: statement will never be executed [-Wswitch-unreachable]
+   72 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:134:1: warning: control reaches end of non-void function [-Wreturn-type]
+  134 | }
+      | ^
+22:47:07 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:75:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   75 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:79:4: error: a label can only be part of a statement and a declaration is not a statement
+   79 |    int opcion;
+      |    ^~~
+..\TP1.c:84:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   84 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:87:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   87 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:93:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   93 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:68:60: note: declared here
+   68 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:94:63: error: incompatible type for argument 3 of 'cargarCostos'
+   94 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:95:60: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:102:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  102 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:105:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  105 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:114:49: error: expected ')' before ';' token
+  114 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:131:10: error: expected ';' before '}' token
+  131 |    break;
+      |          ^
+      |          ;
+  132 |  }
+      |  ~        
+..\TP1.c:133:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  133 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:169:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  169 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:169:9: warning: too many arguments for format [-Wformat-extra-args]
+  169 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:173:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  173 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:173:10: warning: too many arguments for format [-Wformat-extra-args]
+  173 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:183:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  183 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:183:8: warning: too many arguments for format [-Wformat-extra-args]
+  183 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:187:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  187 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:187:9: warning: too many arguments for format [-Wformat-extra-args]
+  187 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:193:7: error: conflicting types for 'cargarCostos'
+  193 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:72:3: warning: statement will never be executed [-Wswitch-unreachable]
+   72 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:134:1: warning: control reaches end of non-void function [-Wreturn-type]
+  134 | }
+      | ^
+22:49:56 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:115:49: error: expected ')' before ';' token
+  115 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:132:10: error: expected ';' before '}' token
+  132 |    break;
+      |          ^
+      |          ;
+  133 |  }
+      |  ~        
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:50:07 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:115:49: error: expected ')' before ';' token
+  115 |    printf("\nPrecio unitario: %2.f", costosAA[3];
+      |                                                 ^
+      |                                                 )
+..\TP1.c:132:10: error: expected ';' before '}' token
+  132 |    break;
+      |          ^
+      |          ;
+  133 |  }
+      |  ~        
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:50:59 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:122:60: error: expected ';' before 'fflush'
+  122 |    printf("\n\a\nESTAS SEGURO DE SALIR DEL PROGRAMA Y/N :")
+      |                                                            ^
+      |                                                            ;
+  123 |    fflush(stdin);
+      |    ~~~~~~                                                   
+..\TP1.c:124:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  124 |    scanf("%c", revalidacion);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+..\TP1.c:129:13: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  129 |     scanf("%c", revalidacion);
+      |            ~^   ~~~~~~~~~~~~
+      |             |   |
+      |             |   int
+      |             char *
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:51:09 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  124 |    scanf("%c", revalidacion);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+..\TP1.c:129:13: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  129 |     scanf("%c", revalidacion);
+      |            ~^   ~~~~~~~~~~~~
+      |             |   |
+      |             |   int
+      |             char *
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:51:11 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:12: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  124 |    scanf("%c", revalidacion);
+      |           ~^   ~~~~~~~~~~~~
+      |            |   |
+      |            |   int
+      |            char *
+..\TP1.c:129:13: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  129 |     scanf("%c", revalidacion);
+      |            ~^   ~~~~~~~~~~~~
+      |             |   |
+      |             |   int
+      |             char *
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:51:30 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:10: error: empty character constant
+  124 |    scanf(''%c', revalidacion);
+      |          ^~
+..\TP1.c:124:14: warning: missing terminating ' character
+  124 |    scanf(''%c', revalidacion);
+      |              ^
+..\TP1.c:124:14: error: missing terminating ' character
+  124 |    scanf(''%c', revalidacion);
+      |              ^~~~~~~~~~~~~~~~~
+..\TP1.c:124:13: error: 'c' undeclared (first use in this function)
+  124 |    scanf(''%c', revalidacion);
+      |             ^
+..\TP1.c:124:13: note: each undeclared identifier is reported only once for each function it appears in
+..\TP1.c:124:14: error: expected ')' before 'revalidacion'
+  124 |    scanf(''%c', revalidacion);
+      |              ^
+      |              )
+  125 |    revalidacion = tolower(revalidacion);
+      |    ~~~~~~~~~~~~
+..\TP1.c:132:10: error: expected ';' before '}' token
+  132 |    break;
+      |          ^
+      |          ;
+  133 |  }
+      |  ~        
+..\TP1.c:121:9: warning: unused variable 'revalidacion' [-Wunused-variable]
+  121 |    char revalidacion;
+      |         ^~~~~~~~~~~~
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:51:38 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:10: warning: multi-character character constant [-Wmultichar]
+  124 |    scanf('%c', revalidacion);
+      |          ^~~~
+..\TP1.c:124:10: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:129:13: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  129 |     scanf("%c", revalidacion);
+      |            ~^   ~~~~~~~~~~~~
+      |             |   |
+      |             |   int
+      |             char *
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:52:03 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:10: warning: multi-character character constant [-Wmultichar]
+  124 |    scanf('%c', revalidacion);
+      |          ^~~~
+..\TP1.c:124:10: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:129:11: warning: multi-character character constant [-Wmultichar]
+  129 |     scanf('%c', revalidacion);
+      |           ^~~~
+..\TP1.c:129:11: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:52:09 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcion;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:10: warning: multi-character character constant [-Wmultichar]
+  124 |    scanf('%c', revalidacion);
+      |          ^~~~
+..\TP1.c:124:10: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:129:11: warning: multi-character character constant [-Wmultichar]
+  129 |     scanf('%c', revalidacion);
+      |           ^~~~
+..\TP1.c:129:11: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+22:55:14 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcionSubmenu;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:10: warning: multi-character character constant [-Wmultichar]
+  124 |    scanf('%c', revalidacion);
+      |          ^~~~
+..\TP1.c:124:10: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:129:11: warning: multi-character character constant [-Wmultichar]
+  129 |     scanf('%c', revalidacion);
+      |           ^~~~
+..\TP1.c:129:11: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: At top level:
+..\TP1.c:194:7: error: conflicting types for 'cargarCostos'
+  194 | float cargarCostos(int indice, float km, float valorVuelo){
+      |       ^~~~~~~~~~~~
+..\TP1.c:23:7: note: previous declaration of 'cargarCostos' was here
+   23 | float cargarCostos(int, float, float vec[]);
+      |       ^~~~~~~~~~~~
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+16:43:34 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:76:11: error: incompatible types when returning type 'float *' but 'float' was expected
+   76 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:80:4: error: a label can only be part of a statement and a declaration is not a statement
+   80 |    int opcionSubmenu;
+      |    ^~~
+..\TP1.c:85:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   85 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:88:12: error: incompatible types when returning type 'float *' but 'float' was expected
+   88 |     return vectorDatos;
+      |            ^~~~~~~~~~~
+..\TP1.c:94:27: warning: 'sizeof' on array function parameter 'costosAA' will return size of 'float *' [-Wsizeof-array-argument]
+   94 |    for(int i = 0; i<sizeof(costosAA);i++){
+      |                           ^
+..\TP1.c:69:60: note: declared here
+   69 | float opcionElegida(int opcion, float vectorDatos[], float costosAA[], float costosLatam[]){
+      |                                                      ~~~~~~^~~~~~~~~~
+..\TP1.c:95:63: error: incompatible type for argument 3 of 'cargarCostos'
+   95 |     costosLatam[i] = cargarCostos(i,vectorDatos[0],vectorDatos[1]);
+      |                                                    ~~~~~~~~~~~^~~
+      |                                                               |
+      |                                                               float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:96:60: error: incompatible type for argument 3 of 'cargarCostos'
+   96 |     costosAA[i] = cargarCostos(i,vectorDatos[0],vectorDatos[2]);
+      |                                                 ~~~~~~~~~~~^~~
+      |                                                            |
+      |                                                            float
+..\TP1.c:23:38: note: expected 'float *' but argument is of type 'float'
+   23 | float cargarCostos(int, float, float vec[]);
+      |                                ~~~~~~^~~~~
+..\TP1.c:103:11: error: incompatible types when returning type 'float *' but 'float' was expected
+  103 |    return vectorDatos;
+      |           ^~~~~~~~~~~
+..\TP1.c:106:4: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  106 |    print("\n\n\nLatam:");
+      |    ^~~~~
+      |    printf
+..\TP1.c:121:4: error: a label can only be part of a statement and a declaration is not a statement
+  121 |    char revalidacion;
+      |    ^~~~
+..\TP1.c:124:10: warning: multi-character character constant [-Wmultichar]
+  124 |    scanf('%c', revalidacion);
+      |          ^~~~
+..\TP1.c:124:10: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:129:11: warning: multi-character character constant [-Wmultichar]
+  129 |     scanf('%c', revalidacion);
+      |           ^~~~
+..\TP1.c:129:11: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\TP1.c:11:
+c:\mingw\include\stdio.h:700:48: note: expected 'const char *' but argument is of type 'int'
+  700 | _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+      |                                                ^~~~~~~~~~~~
+..\TP1.c:134:9: error: incompatible types when returning type 'float *' but 'float' was expected
+  134 |  return vectorDatos;
+      |         ^~~~~~~~~~~
+..\TP1.c: In function 'ingresarKM':
+..\TP1.c:170:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  170 |   scanf("%.2f", &kilometros);
+      |           ^
+..\TP1.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+  170 |   scanf("%.2f", &kilometros);
+      |         ^~~~~~
+..\TP1.c:174:12: warning: unknown conversion type character '.' in format [-Wformat=]
+  174 |    scanf("%.2f", &kilometros);
+      |            ^
+..\TP1.c:174:10: warning: too many arguments for format [-Wformat-extra-args]
+  174 |    scanf("%.2f", &kilometros);
+      |          ^~~~~~
+..\TP1.c: In function 'cargarValorKM':
+..\TP1.c:184:10: warning: unknown conversion type character '.' in format [-Wformat=]
+  184 |  scanf("%.2f", &precio);
+      |          ^
+..\TP1.c:184:8: warning: too many arguments for format [-Wformat-extra-args]
+  184 |  scanf("%.2f", &precio);
+      |        ^~~~~~
+..\TP1.c:188:11: warning: unknown conversion type character '.' in format [-Wformat=]
+  188 |   scanf("%.2f", &precio);
+      |           ^
+..\TP1.c:188:9: warning: too many arguments for format [-Wformat-extra-args]
+  188 |   scanf("%.2f", &precio);
+      |         ^~~~~~
+..\TP1.c: In function 'cargarCostos':
+..\TP1.c:199:27: error: invalid operands to binary * (have 'float *' and 'double')
+  199 |    valorFinal = valorVuelo*0.90*km;
+      |                           ^
+..\TP1.c:202:27: error: invalid operands to binary * (have 'float *' and 'double')
+  202 |    valorFinal = valorVuelo*1.25*km;
+      |                           ^
+..\TP1.c:205:28: error: invalid operands to binary / (have 'float *' and 'double')
+  205 |    valorFinal = (valorVuelo/BTC)*km;
+      |                            ^
+..\TP1.c:208:27: error: invalid operands to binary * (have 'float *' and 'float')
+  208 |    valorFinal = valorVuelo*km;
+      |                           ^
+..\TP1.c:211:27: error: invalid operands to binary * (have 'float *' and 'float')
+  211 |    valorFinal = valorVuelo*km;
+      |                           ^
+..\TP1.c: In function 'opcionElegida':
+..\TP1.c:73:3: warning: statement will never be executed [-Wswitch-unreachable]
+   73 |   printf("\nENTRE AL SWITCH");
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\TP1.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+  135 | }
+      | ^
+16:45:59 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'main':
+..\TP1.c:50:11: warning: variable 'precioAAUnitario' set but not used [-Wunused-but-set-variable]
+   50 |     float precioAAUnitario;
+      |           ^~~~~~~~~~~~~~~~
+..\TP1.c:47:11: warning: variable 'precioTdAA' set but not used [-Wunused-but-set-variable]
+   47 |     float precioTdAA;
+      |           ^~~~~~~~~~
+gcc -o TP1.exe TP1.o 
+16:47:31 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:47:35 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+17:42:42 **** Rebuild of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:43:03 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+17:47:03 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:50:54 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'main':
+..\TP1.c:121:21: warning: implicit declaration of function 'noMostrarCalculos'; did you mean 'noRealizarCalculos'? [-Wimplicit-function-declaration]
+  121 |                     noMostrarCalculos();
+      |                     ^~~~~~~~~~~~~~~~~
+      |                     noRealizarCalculos
+..\TP1.c: At top level:
+..\TP1.c:260:6: warning: conflicting types for 'noMostrarCalculos'
+  260 | void noMostrarCalculos(){
+      |      ^~~~~~~~~~~~~~~~~
+..\TP1.c:121:21: note: previous implicit declaration of 'noMostrarCalculos' was here
+  121 |                     noMostrarCalculos();
+      |                     ^~~~~~~~~~~~~~~~~
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+17:51:50 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+..\TP1.c: In function 'main':
+..\TP1.c:121:21: warning: implicit declaration of function 'noMostrarCalculos'; did you mean 'noRealizarCalculos'? [-Wimplicit-function-declaration]
+  121 |                     noMostrarCalculos();
+      |                     ^~~~~~~~~~~~~~~~~
+      |                     noRealizarCalculos
+..\TP1.c: At top level:
+..\TP1.c:260:6: warning: conflicting types for 'noMostrarCalculos'
+  260 | void noMostrarCalculos(){
+      |      ^~~~~~~~~~~~~~~~~
+..\TP1.c:121:21: note: previous implicit declaration of 'noMostrarCalculos' was here
+  121 |                     noMostrarCalculos();
+      |                     ^~~~~~~~~~~~~~~~~
+gcc -o TP1.exe TP1.o 
+17:52:11 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+17:52:56 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:53:22 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:54:52 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+17:55:29 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+17:56:12 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -o TP1.exe TP1.o 
+Info: Nothing to build for TP1
+19:08:39 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\TP1.o" "..\\scr\\TP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\funcionesCalculosTP1.o" "..\\scr\\funcionesCalculosTP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:12:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   12 |         printf("\n\nError en dato\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:12:9: warning: incompatible implicit declaration of built-in function 'printf'
+..\scr\dataInOutValidateTP1.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\scr\dataInOutValidateTP1.c:13:9: warning: implicit declaration of function 'mostrarMenuInicial' [-Wimplicit-function-declaration]
+   13 |         mostrarMenuInicial( km,  precioAA,  precioLatam);
+      |         ^~~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:14:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   14 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:21:5: warning: incompatible implicit declaration of built-in function 'printf'
+   21 |     printf("\nIngrese los Kilometros del viaje: ");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:21:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:22:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   22 |     scanf("%f", &km);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:22:5: warning: incompatible implicit declaration of built-in function 'scanf'
+..\scr\dataInOutValidateTP1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:23:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   23 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c:24:5: warning: implicit declaration of function 'limpiarPantalla' [-Wimplicit-function-declaration]
+   24 |     limpiarPantalla();
+      |     ^~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:28:7: error: conflicting types for 'validarKilometros'
+   28 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:23:10: note: previous implicit declaration of 'validarKilometros' was here
+   23 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'validarKilometros':
+..\scr\dataInOutValidateTP1.c:31:9: warning: incompatible implicit declaration of built-in function 'printf'
+   31 |         printf("\n\nERROR EN DATO. REINGRESE.\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'mostrarSubmenuAereolineas':
+..\scr\dataInOutValidateTP1.c:39:5: warning: incompatible implicit declaration of built-in function 'printf'
+   39 |     printf("1- Aereolineas Argentinas. \n");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:39:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:45:5: warning: incompatible implicit declaration of built-in function 'printf'
+   45 |     printf("\nIngrese la opcion deseada: ");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:45:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:46:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   46 |     scanf("%d",&opcion);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:46:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:48:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   48 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'validaropcionSubmenu':
+..\scr\dataInOutValidateTP1.c:55:9: warning: incompatible implicit declaration of built-in function 'printf'
+   55 |         printf("\n\nError en dato\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:55:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:64:5: warning: incompatible implicit declaration of built-in function 'printf'
+   64 |     printf("\nIngrese el precio del Kilometros: ");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:64:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:65:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   65 |     scanf("%f",&precio);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:65:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:66:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   66 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:71:7: error: conflicting types for 'validarPrecio'
+   71 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:66:14: note: previous implicit declaration of 'validarPrecio' was here
+   66 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'validarPrecio':
+..\scr\dataInOutValidateTP1.c:74:9: warning: incompatible implicit declaration of built-in function 'printf'
+   74 |         printf("\n\nERROR EN DATO. REINGRESE.\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:74:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:85:5: warning: incompatible implicit declaration of built-in function 'printf'
+   85 |     printf("\nRealmente Desea Salir. \n\n0- SI \n1- NO\n\n");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:85:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:86:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   86 |     scanf("%d", &continuar);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:86:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:87:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   87 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'validaropcionSalida':
+..\scr\dataInOutValidateTP1.c:94:9: warning: incompatible implicit declaration of built-in function 'printf'
+   94 |         printf("\n\nError en dato\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:94:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+19:09:43 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\funcionesImpresionPorPantallaTP1.o" "..\\scr\\funcionesImpresionPorPantallaTP1.c" 
+..\scr\funcionesImpresionPorPantallaTP1.c: In function 'mostrarMenuInicial':
+..\scr\funcionesImpresionPorPantallaTP1.c:12:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   12 |     printf("1- Ingresar KM. ( KM = %2.f )\n", km);
+      |     ^~~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:12:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\scr\funcionesImpresionPorPantallaTP1.c:10:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    9 | #include <time.h>
+  +++ |+#include <stdio.h>
+   10 | 
+..\scr\funcionesImpresionPorPantallaTP1.c: In function 'recibirOpcionMenuPrincipal':
+..\scr\funcionesImpresionPorPantallaTP1.c:24:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   24 |     scanf("%d", &opcion);
+      |     ^~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:24:5: warning: incompatible implicit declaration of built-in function 'scanf'
+..\scr\funcionesImpresionPorPantallaTP1.c:24:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\funcionesImpresionPorPantallaTP1.c:25:14: warning: implicit declaration of function 'validarOpcionMenuPrincipal'; did you mean 'recibirOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   25 |     opcion = validarOpcionMenuPrincipal(opcion, km, precioAA, precioLatam);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionMenuPrincipal
+..\scr\funcionesImpresionPorPantallaTP1.c: In function 'noRealizarCalculos':
+..\scr\funcionesImpresionPorPantallaTP1.c:31:5: warning: incompatible implicit declaration of built-in function 'printf'
+   31 |     printf("\nFaltan cargar datos. Verifique Kilometraje y precios de Aereolineas\n\n\n");
+      |     ^~~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:31:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\funcionesImpresionPorPantallaTP1.c: In function 'noMostrarCalculos':
+..\scr\funcionesImpresionPorPantallaTP1.c:35:5: warning: incompatible implicit declaration of built-in function 'printf'
+   35 |     printf("\nFaltan calcular datos. Verifique haber calculado previamente\n\n\n");
+      |     ^~~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:35:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\funcionesImpresionPorPantallaTP1.c: In function 'limpiarPantalla':
+..\scr\funcionesImpresionPorPantallaTP1.c:39:9: warning: incompatible implicit declaration of built-in function 'printf'
+   39 |         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+      |         ^~~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:39:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\funcionesImpresionPorPantallaTP1.c: In function 'calcularTodosLosCostos':
+..\scr\funcionesImpresionPorPantallaTP1.c:43:5: warning: incompatible implicit declaration of built-in function 'printf'
+   43 |     printf("\n\nCAlCULANDO COSTOS.... ESPERE...\n");
+      |     ^~~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:43:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\funcionesImpresionPorPantallaTP1.c:44:5: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   44 |     delay(1);
+      |     ^~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c: At top level:
+..\scr\funcionesImpresionPorPantallaTP1.c:56:6: warning: conflicting types for 'delay'
+   56 | void delay(int secs) {
+      |      ^~~~~
+..\scr\funcionesImpresionPorPantallaTP1.c:44:5: note: previous implicit declaration of 'delay' was here
+   44 |     delay(1);
+      |     ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\TP1.o" "..\\scr\\TP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:12:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   12 |         printf("\n\nError en dato\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:12:9: warning: incompatible implicit declaration of built-in function 'printf'
+..\scr\dataInOutValidateTP1.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\scr\dataInOutValidateTP1.c:13:9: warning: implicit declaration of function 'mostrarMenuInicial' [-Wimplicit-function-declaration]
+   13 |         mostrarMenuInicial( km,  precioAA,  precioLatam);
+      |         ^~~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:14:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   14 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:21:5: warning: incompatible implicit declaration of built-in function 'printf'
+   21 |     printf("\nIngrese los Kilometros del viaje: ");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:21:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:22:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   22 |     scanf("%f", &km);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:22:5: warning: incompatible implicit declaration of built-in function 'scanf'
+..\scr\dataInOutValidateTP1.c:22:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:23:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   23 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c:24:5: warning: implicit declaration of function 'limpiarPantalla' [-Wimplicit-function-declaration]
+   24 |     limpiarPantalla();
+      |     ^~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:28:7: error: conflicting types for 'validarKilometros'
+   28 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:23:10: note: previous implicit declaration of 'validarKilometros' was here
+   23 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'validarKilometros':
+..\scr\dataInOutValidateTP1.c:31:9: warning: incompatible implicit declaration of built-in function 'printf'
+   31 |         printf("\n\nERROR EN DATO. REINGRESE.\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'mostrarSubmenuAereolineas':
+..\scr\dataInOutValidateTP1.c:39:5: warning: incompatible implicit declaration of built-in function 'printf'
+   39 |     printf("1- Aereolineas Argentinas. \n");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:39:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:45:5: warning: incompatible implicit declaration of built-in function 'printf'
+   45 |     printf("\nIngrese la opcion deseada: ");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:45:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:46:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   46 |     scanf("%d",&opcion);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:46:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:48:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   48 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'validaropcionSubmenu':
+..\scr\dataInOutValidateTP1.c:55:9: warning: incompatible implicit declaration of built-in function 'printf'
+   55 |         printf("\n\nError en dato\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:55:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:64:5: warning: incompatible implicit declaration of built-in function 'printf'
+   64 |     printf("\nIngrese el precio del Kilometros: ");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:64:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:65:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   65 |     scanf("%f",&precio);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:65:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:66:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   66 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:71:7: error: conflicting types for 'validarPrecio'
+   71 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:66:14: note: previous implicit declaration of 'validarPrecio' was here
+   66 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'validarPrecio':
+..\scr\dataInOutValidateTP1.c:74:9: warning: incompatible implicit declaration of built-in function 'printf'
+   74 |         printf("\n\nERROR EN DATO. REINGRESE.\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:74:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:85:5: warning: incompatible implicit declaration of built-in function 'printf'
+   85 |     printf("\nRealmente Desea Salir. \n\n0- SI \n1- NO\n\n");
+      |     ^~~~~~
+..\scr\dataInOutValidateTP1.c:85:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\scr\dataInOutValidateTP1.c:86:5: warning: incompatible implicit declaration of built-in function 'scanf'
+   86 |     scanf("%d", &continuar);
+      |     ^~~~~
+..\scr\dataInOutValidateTP1.c:86:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\scr\dataInOutValidateTP1.c:87:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   87 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'validaropcionSalida':
+..\scr\dataInOutValidateTP1.c:94:9: warning: incompatible implicit declaration of built-in function 'printf'
+   94 |         printf("\n\nError en dato\n\n");
+      |         ^~~~~~
+..\scr\dataInOutValidateTP1.c:94:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+19:10:17 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:13:9: warning: implicit declaration of function 'mostrarMenuInicial' [-Wimplicit-function-declaration]
+   13 |         mostrarMenuInicial( km,  precioAA,  precioLatam);
+      |         ^~~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:14:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   14 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:23:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   23 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c:24:5: warning: implicit declaration of function 'limpiarPantalla' [-Wimplicit-function-declaration]
+   24 |     limpiarPantalla();
+      |     ^~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:28:7: error: conflicting types for 'validarKilometros'
+   28 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:23:10: note: previous implicit declaration of 'validarKilometros' was here
+   23 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:48:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   48 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:66:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   66 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:71:7: error: conflicting types for 'validarPrecio'
+   71 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:66:14: note: previous implicit declaration of 'validarPrecio' was here
+   66 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:87:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   87 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:11:04 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:15:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   15 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:24:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   24 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:29:7: error: conflicting types for 'validarKilometros'
+   29 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:24:10: note: previous implicit declaration of 'validarKilometros' was here
+   24 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:49:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   49 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:67:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   67 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:72:7: error: conflicting types for 'validarPrecio'
+   72 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:67:14: note: previous implicit declaration of 'validarPrecio' was here
+   67 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:88:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   88 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:12:34 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:15:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   15 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:24:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   24 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:29:7: error: conflicting types for 'validarKilometros'
+   29 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:24:10: note: previous implicit declaration of 'validarKilometros' was here
+   24 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:49:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   49 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:67:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   67 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:72:7: error: conflicting types for 'validarPrecio'
+   72 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:67:14: note: previous implicit declaration of 'validarPrecio' was here
+   67 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:88:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   88 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:14:15 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:15:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   15 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'validarKilometros':
+..\scr\dataInOutValidateTP1.c:24:14: warning: implicit declaration of function 'cargarKilometros'; did you mean 'validarKilometros'? [-Wimplicit-function-declaration]
+   24 |         km = cargarKilometros();
+      |              ^~~~~~~~~~~~~~~~
+      |              validarKilometros
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:30:7: error: conflicting types for 'cargarKilometros'
+   30 | float cargarKilometros(){
+      |       ^~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:24:14: note: previous implicit declaration of 'cargarKilometros' was here
+   24 |         km = cargarKilometros();
+      |              ^~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:51:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   51 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:69:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   69 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:74:7: error: conflicting types for 'validarPrecio'
+   74 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:69:14: note: previous implicit declaration of 'validarPrecio' was here
+   69 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:90:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   90 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:44:42 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:15:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   15 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'validarKilometros':
+..\scr\dataInOutValidateTP1.c:24:14: warning: implicit declaration of function 'cargarKilometros'; did you mean 'validarKilometros'? [-Wimplicit-function-declaration]
+   24 |         km = cargarKilometros();
+      |              ^~~~~~~~~~~~~~~~
+      |              validarKilometros
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:30:7: error: conflicting types for 'cargarKilometros'
+   30 | float cargarKilometros(){
+      |       ^~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:24:14: note: previous implicit declaration of 'cargarKilometros' was here
+   24 |         km = cargarKilometros();
+      |              ^~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:51:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   51 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:69:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   69 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:74:7: error: conflicting types for 'validarPrecio'
+   74 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:69:14: note: previous implicit declaration of 'validarPrecio' was here
+   69 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:90:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   90 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:45:43 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:15:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   15 |         opcion = recibirOpcionMenuPrincipal(km,  precioAA,  precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:24:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   24 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:29:7: error: conflicting types for 'validarKilometros'
+   29 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:24:10: note: previous implicit declaration of 'validarKilometros' was here
+   24 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:50:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   50 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:68:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   68 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:73:7: error: conflicting types for 'validarPrecio'
+   73 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:68:14: note: previous implicit declaration of 'validarPrecio' was here
+   68 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:89:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   89 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:53:22 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:16:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   16 |         opcion = recibirOpcionMenuPrincipal(km, precioAA, precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'cargarKilometros':
+..\scr\dataInOutValidateTP1.c:25:10: warning: implicit declaration of function 'validarKilometros'; did you mean 'cargarKilometros'? [-Wimplicit-function-declaration]
+   25 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+      |          cargarKilometros
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:30:7: error: conflicting types for 'validarKilometros'
+   30 | float validarKilometros(float km){
+      |       ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:25:10: note: previous implicit declaration of 'validarKilometros' was here
+   25 |     km = validarKilometros(km);
+      |          ^~~~~~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:51:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   51 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:69:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   69 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:74:7: error: conflicting types for 'validarPrecio'
+   74 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:69:14: note: previous implicit declaration of 'validarPrecio' was here
+   69 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:90:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   90 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:55:04 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+..\scr\dataInOutValidateTP1.c: In function 'validarOpcionMenuPrincipal':
+..\scr\dataInOutValidateTP1.c:18:18: warning: implicit declaration of function 'recibirOpcionMenuPrincipal'; did you mean 'validarOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   18 |         opcion = recibirOpcionMenuPrincipal(km, precioAA, precioLatam);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  validarOpcionMenuPrincipal
+..\scr\dataInOutValidateTP1.c: In function 'recibirOpcionSubmenu':
+..\scr\dataInOutValidateTP1.c:53:14: warning: implicit declaration of function 'validaropcionSubmenu'; did you mean 'recibirOpcionSubmenu'? [-Wimplicit-function-declaration]
+   53 |     opcion = validaropcionSubmenu(opcion);
+      |              ^~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionSubmenu
+..\scr\dataInOutValidateTP1.c: In function 'cargarPrecio':
+..\scr\dataInOutValidateTP1.c:71:14: warning: implicit declaration of function 'validarPrecio'; did you mean 'cargarPrecio'? [-Wimplicit-function-declaration]
+   71 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+      |              cargarPrecio
+..\scr\dataInOutValidateTP1.c: At top level:
+..\scr\dataInOutValidateTP1.c:76:7: error: conflicting types for 'validarPrecio'
+   76 | float validarPrecio(float precio){
+      |       ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c:71:14: note: previous implicit declaration of 'validarPrecio' was here
+   71 |     precio = validarPrecio(precio);
+      |              ^~~~~~~~~~~~~
+..\scr\dataInOutValidateTP1.c: In function 'confirmacionSalida':
+..\scr\dataInOutValidateTP1.c:92:17: warning: implicit declaration of function 'validaropcionSalida'; did you mean 'validaropcionSubmenu'? [-Wimplicit-function-declaration]
+   92 |     continuar = validaropcionSalida(continuar);
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 validaropcionSubmenu
+19:55:52 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+gcc -o TP1.exe "scr\\TP1.o" "scr\\dataInOutValidateTP1.o" "scr\\funcionesCalculosTP1.o" "scr\\funcionesImpresionPorPantallaTP1.o" 
+19:56:18 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "scr\\dataInOutValidateTP1.o" "..\\scr\\dataInOutValidateTP1.c" 
+gcc -o TP1.exe "scr\\TP1.o" "scr\\dataInOutValidateTP1.o" "scr\\funcionesCalculosTP1.o" "scr\\funcionesImpresionPorPantallaTP1.o" 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+20:39:18 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o "..\\funcionesImpresionPorPantallaTP1.c" 
+..\funcionesImpresionPorPantallaTP1.c: In function 'mostrarMenuInicial':
+..\funcionesImpresionPorPantallaTP1.c:12:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   12 |     printf("1- Ingresar KM. ( KM = %2.f )\n", km);
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:12:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\funcionesImpresionPorPantallaTP1.c:10:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    9 | #include <time.h>
+  +++ |+#include <stdio.h>
+   10 | 
+..\funcionesImpresionPorPantallaTP1.c: In function 'recibirOpcionMenuPrincipal':
+..\funcionesImpresionPorPantallaTP1.c:24:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   24 |     scanf("%d", &opcion);
+      |     ^~~~~
+..\funcionesImpresionPorPantallaTP1.c:24:5: warning: incompatible implicit declaration of built-in function 'scanf'
+..\funcionesImpresionPorPantallaTP1.c:24:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\funcionesImpresionPorPantallaTP1.c:25:14: warning: implicit declaration of function 'validarOpcionMenuPrincipal'; did you mean 'recibirOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   25 |     opcion = validarOpcionMenuPrincipal(opcion, km, precioAA, precioLatam);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionMenuPrincipal
+..\funcionesImpresionPorPantallaTP1.c: In function 'noRealizarCalculos':
+..\funcionesImpresionPorPantallaTP1.c:31:5: warning: incompatible implicit declaration of built-in function 'printf'
+   31 |     printf("\nFaltan cargar datos. Verifique Kilometraje y precios de Aereolineas\n\n\n");
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:31:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c: In function 'noMostrarCalculos':
+..\funcionesImpresionPorPantallaTP1.c:35:5: warning: incompatible implicit declaration of built-in function 'printf'
+   35 |     printf("\nFaltan calcular datos. Verifique haber calculado previamente\n\n\n");
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:35:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c: In function 'limpiarPantalla':
+..\funcionesImpresionPorPantallaTP1.c:39:9: warning: incompatible implicit declaration of built-in function 'printf'
+   39 |         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+      |         ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:39:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c: In function 'calcularTodosLosCostos':
+..\funcionesImpresionPorPantallaTP1.c:43:5: warning: incompatible implicit declaration of built-in function 'printf'
+   43 |     printf("\n\nCAlCULANDO COSTOS.... ESPERE...\n");
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:43:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c:44:5: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   44 |     delay(1);
+      |     ^~~~~
+..\funcionesImpresionPorPantallaTP1.c: At top level:
+..\funcionesImpresionPorPantallaTP1.c:56:6: warning: conflicting types for 'delay'
+   56 | void delay(int secs) {
+      |      ^~~~~
+..\funcionesImpresionPorPantallaTP1.c:44:5: note: previous implicit declaration of 'delay' was here
+   44 |     delay(1);
+      |     ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesCalculosTP1.o "..\\funcionesCalculosTP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o dataInOutValidateTP1.o "..\\dataInOutValidateTP1.c" 
+gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 

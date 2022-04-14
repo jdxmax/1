@@ -1,0 +1,133 @@
+/*
+ ============================================================================
+ Name        : TP1.c
+ Author      : Escobar Juan Ignacio
+ Version     :
+ Copyright   : DIVISION F
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int mostrarMenu(void);
+float opcionElegida(int,float vec[]);
+int validarOpcion1a6(int);
+int subMenuValorVuelo();
+float cargarValorKM();
+
+int main(void) {
+
+	setbuf(stdout,NULL);
+
+	//Para calcular todo necesito 3 datos, KM,$AA,$LATAM
+	float vectorDatos[3];
+
+	int opcionSeleccionada;
+
+	do{
+	opcionSeleccionada = mostrarMenu();
+	opcionElegida(opcionSeleccionada, vectorDatos);
+
+	}while(opcionSeleccionada !=6);
+
+	return 0;
+}
+
+int mostrarMenu(){
+
+	//El usuario debe elegir una opcion del menu general.
+	int opcionElegida;
+
+	printf("1- Ingresar KM. \n");
+	printf("2- Ingresar valor del vuelo. \n");
+	printf("3- Calcular costos. \n");
+	printf("4- Mostrar datos de facturacion. \n");
+	printf("5- Carga Manual de Datos. \n");
+	printf("6- Salir. \n");
+
+	//Tomamos el valor del usuario.
+	printf("\n\nElija una opcion:   ");
+	scanf("%d", &opcionElegida);
+	opcionElegida = validarOpcion1a6(opcionElegida);
+	printf("\n\n\n\n\n\n\n\n\n\n");
+
+	return opcionElegida;
+
+}
+
+
+float opcionElegida(int opcion, float vectorDatos[]){
+
+	switch(opcion){
+		case 1:
+			vectorDatos[0] = ingresarKM(vectorDatos);
+			return vectorDatos;
+			break;
+		case 2:
+			//submenu precioAereolinea (AA o LATAM)
+			int opcion
+			opcion = subMenuValorVuelo();
+
+			if(opcion==1){
+				vectorDatos[1] = cargarValorKM();
+			}else{
+
+			}
+
+			break;
+		case 3:
+			//Submenu costos segun caso.
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+	}
+	return vectorDatos;
+}
+
+int validarOpcion1a6(int opcion){
+
+	while(opcion>6 || opcion<1){
+		printf("\a\n\nElija una opcion correcta:   ");
+		scanf("%d", &opcion);
+	}
+
+	return opcion;
+}
+
+int subMenuValorVuelo(){
+	int opcionElegida;
+
+	printf("1- LATAM. \n");
+	printf("2- Aereolineas Argentinas. \n");
+
+	//Tomamos el valor del usuario.
+	printf("\n\nElija una opcion:   ");
+	scanf("%d", &opcionElegida);
+
+	while(opcion>2 || opcion<1){
+			printf("\a\n\nElija una opcion correcta:   ");
+			scanf("%d", &opcionElegida);
+		}
+
+		return opcionElegida;
+
+}
+
+float cargarValorKM(){
+	float precio;
+
+	printf("n\nIngrese el valor del KM    $");
+	scanf("%d", &precio);
+
+	while(precio<1){
+		printf("n\nIngrese un precio valido del KM    $");
+		scanf("%d", &precio);
+	}
+
+}

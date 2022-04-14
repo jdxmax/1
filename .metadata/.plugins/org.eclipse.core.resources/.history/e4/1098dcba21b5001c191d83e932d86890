@@ -1,0 +1,80 @@
+/*
+ ============================================================================
+ Name        : TP1.c
+ Author      : Escobar Juan Ignacio
+ Version     :
+ Copyright   : DIVISION F
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int mostrarMenu(void);
+void opcionElegida(int);
+int validarOpcion1a6;
+
+int main(void) {
+
+	setbuf(stdout,NULL);
+
+	int opcionSeleccionada;
+
+	do{
+	opcionSeleccionada = mostrarMenu();
+	opcionElegida(opcionSeleccionada);
+
+	}while(opcionSeleccionada !=6);
+
+	return 0;
+}
+
+int mostrarMenu(){
+
+	//El usuario debe elegir una opcion del menu general.
+	int opcionElegida;
+
+	printf("1- Ingresar KM. \n");
+	printf("2- Ingresar valor del vuelo. \n");
+	printf("3- Calcular costos. \n");
+	printf("4- Mostrar datos de facturacion. \n");
+	printf("5- Carga Manual de Datos. \n");
+	printf("6- Salir. \n");
+
+	//Tomamos el valor del usuario.
+	printf("\n\nElija una opcion:   ");
+	scanf("%d", &opcionElegida);
+	opcionElegida = validarOpcion1a6(opcionElegida);
+	printf("\n\n\n\n\n\n\n\n\n\n");
+
+	return opcionElegida;
+
+}
+
+
+void opcionElegida(int opcion){
+
+	switch(opcion){
+		case 1:
+			break;
+		case 2:
+			//submenu precioAereolinea (AA o LATAM)
+			break;
+		case 3:
+			//Submenu costos segun caso.
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+	}
+
+}
+
+int validarOpcion1a6(int opcion){
+
+	return
+}

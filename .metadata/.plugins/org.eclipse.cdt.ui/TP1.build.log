@@ -1,7 +1,59 @@
-16:37:40 **** Rebuild of configuration Debug for project TP1 ****
+20:39:18 **** Incremental Build of configuration Debug for project TP1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
-gcc -o TP1.exe TP1.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o "..\\funcionesImpresionPorPantallaTP1.c" 
+..\funcionesImpresionPorPantallaTP1.c: In function 'mostrarMenuInicial':
+..\funcionesImpresionPorPantallaTP1.c:12:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   12 |     printf("1- Ingresar KM. ( KM = %2.f )\n", km);
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:12:5: warning: incompatible implicit declaration of built-in function 'printf'
+..\funcionesImpresionPorPantallaTP1.c:10:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    9 | #include <time.h>
+  +++ |+#include <stdio.h>
+   10 | 
+..\funcionesImpresionPorPantallaTP1.c: In function 'recibirOpcionMenuPrincipal':
+..\funcionesImpresionPorPantallaTP1.c:24:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   24 |     scanf("%d", &opcion);
+      |     ^~~~~
+..\funcionesImpresionPorPantallaTP1.c:24:5: warning: incompatible implicit declaration of built-in function 'scanf'
+..\funcionesImpresionPorPantallaTP1.c:24:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\funcionesImpresionPorPantallaTP1.c:25:14: warning: implicit declaration of function 'validarOpcionMenuPrincipal'; did you mean 'recibirOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   25 |     opcion = validarOpcionMenuPrincipal(opcion, km, precioAA, precioLatam);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionMenuPrincipal
+..\funcionesImpresionPorPantallaTP1.c: In function 'noRealizarCalculos':
+..\funcionesImpresionPorPantallaTP1.c:31:5: warning: incompatible implicit declaration of built-in function 'printf'
+   31 |     printf("\nFaltan cargar datos. Verifique Kilometraje y precios de Aereolineas\n\n\n");
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:31:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c: In function 'noMostrarCalculos':
+..\funcionesImpresionPorPantallaTP1.c:35:5: warning: incompatible implicit declaration of built-in function 'printf'
+   35 |     printf("\nFaltan calcular datos. Verifique haber calculado previamente\n\n\n");
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:35:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c: In function 'limpiarPantalla':
+..\funcionesImpresionPorPantallaTP1.c:39:9: warning: incompatible implicit declaration of built-in function 'printf'
+   39 |         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+      |         ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:39:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c: In function 'calcularTodosLosCostos':
+..\funcionesImpresionPorPantallaTP1.c:43:5: warning: incompatible implicit declaration of built-in function 'printf'
+   43 |     printf("\n\nCAlCULANDO COSTOS.... ESPERE...\n");
+      |     ^~~~~~
+..\funcionesImpresionPorPantallaTP1.c:43:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\funcionesImpresionPorPantallaTP1.c:44:5: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   44 |     delay(1);
+      |     ^~~~~
+..\funcionesImpresionPorPantallaTP1.c: At top level:
+..\funcionesImpresionPorPantallaTP1.c:56:6: warning: conflicting types for 'delay'
+   56 | void delay(int secs) {
+      |      ^~~~~
+..\funcionesImpresionPorPantallaTP1.c:44:5: note: previous implicit declaration of 'delay' was here
+   44 |     delay(1);
+      |     ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesCalculosTP1.o "..\\funcionesCalculosTP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o dataInOutValidateTP1.o "..\\dataInOutValidateTP1.c" 
+gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 
 
-16:37:41 Build Finished. 0 errors, 0 warnings. (took 704ms)
+20:39:19 Build Finished. 0 errors, 11 warnings. (took 753ms)
 

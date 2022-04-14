@@ -1,0 +1,53 @@
+/*
+ * funcionesImpresionPorPantallaTP1.c
+ *
+ *  Created on: 14 abr 2022
+ *      Author: Juan
+ */
+
+
+void mostrarMenuInicial(float km, float precioAA, float precioLatam){
+    printf("1- Ingresar KM. ( KM = %2.f )\n", km);
+	printf("2- Ingresar valor del vuelo. (Aerolíneas = $ %2.f, Latam = $ %2.f)\n", precioAA, precioLatam);
+	printf("3- Calcular costos. \n");
+	printf("4- Mostrar datos de facturacion. \n");
+	printf("5- Carga Manual de Datos. \n");
+	printf("6- Salir. \n");
+    printf("\n\nSELECCIONA LA OPCION: \n\n");
+
+}
+
+int recibirOpcionMenuPrincipal(float km, float precioAA, float precioLatam){
+    int opcion;
+    scanf("%d", &opcion);
+    opcion = validarOpcionMenuPrincipal(opcion, km, precioAA, precioLatam);
+
+    return opcion;
+}
+
+void noRealizarCalculos(){
+    printf("\nFaltan cargar datos. Verifique Kilometraje y precios de Aereolineas\n\n\n");
+}
+
+void noMostrarCalculos(){
+    printf("\nFaltan calcular datos. Verifique haber calculado previamente\n\n\n");
+}
+
+void limpiarPantalla(){
+        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+}
+
+void calcularTodosLosCostos(){
+    printf("\n\nCAlCULANDO COSTOS.... ESPERE...\n");
+    delay(1);
+    printf("3...\n");
+    delay(2);
+    printf("2...\n");
+    delay(2);
+    printf("1...\n");
+    delay(1);
+    printf("...TODO OK...\n");
+    delay(1);
+    limpiarPantalla();
+}
+

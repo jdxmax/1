@@ -1,0 +1,45 @@
+/*
+ * funcionesCalculosTP1.c
+ *
+ *  Created on: 14 abr 2022
+ *      Author: Juan
+ */
+
+#define BTC 4749852.74
+
+float calcularPrecioTD(float precio){
+    precio = precio*0.9;
+
+    return precio;
+}
+
+float calcularPrecioTC(float precio){
+    precio = precio*1.25;
+
+    return precio;
+}
+
+
+
+float calcularPrecioBTC(float precio){
+    precio = precio/BTC;
+
+    return precio;
+}
+
+float calcularPrecioUnitario(float precio, float km){
+    precio = precio/km;
+
+    return precio;
+}
+
+float diferenciaPrecio(float precioAA, float precioLatam){
+    float diferencia;
+    if(precioAA>precioLatam){
+        diferencia = precioAA - precioLatam;
+    }else{
+        diferencia = precioLatam - precioAA;
+    }
+
+    return diferencia;
+}

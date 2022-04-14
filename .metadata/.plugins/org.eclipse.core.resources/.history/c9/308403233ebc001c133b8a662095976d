@@ -1,0 +1,18 @@
+/*
+ * funcionesImpresionPorPantallaTP1.cpp
+ *
+ *  Created on: 14 abr 2022
+ *      Author: Juan
+ */
+
+#include "funcionesImpresionPorPantallaTP1.h"
+
+funcionesImpresionPorPantallaTP1::funcionesImpresionPorPantallaTP1() {
+	// TODO Auto-generated constructor stub
+
+}
+
+funcionesImpresionPorPantallaTP1::~funcionesImpresionPorPantallaTP1() {
+	// TODO Auto-generated destructor stub
+}
+
