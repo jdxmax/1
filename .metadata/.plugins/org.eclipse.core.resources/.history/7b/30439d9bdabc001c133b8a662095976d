@@ -8,11 +8,6 @@
 #include "funcionesImpresionPorPantallaTP1.h"
 #include "dataInOutValidateTP1.h"
 
-///validarOpcionMenuPrincipal: VALIDA QUE LA OPCION INGRESADA SE ENCUNETRE ENTRE 1 - 6. DE NO ENCONTRARSE MOSTRARA MENU Y PEDIRA NUEVAMENTE DATO
-///parametro 1, int opcion, opcion ingresada por usuario
-///parametro 2, float km, km del viaje
-///parametro 3, float precioAA, precio del viaje
-///parametro 4, float precioLatam, precio del viaje
 
 int validarOpcionMenuPrincipal(int opcion, float km, float precioAA, float precioLatam){
     while(opcion<1 || opcion>6){
@@ -23,9 +18,6 @@ int validarOpcionMenuPrincipal(int opcion, float km, float precioAA, float preci
     return opcion;
 }
 
-
-///cargarKilometros: solicita al usuario que cargue los kilometros
-
 float cargarKilometros(){
     float km;
     printf("\nIngrese los Kilometros del viaje: ");
@@ -34,10 +26,6 @@ float cargarKilometros(){
     limpiarPantalla();
     return km;
 }
-
-
-///validarKilometros: con los datos ingresados por el usuario el programa valida que sea un kilometraje valido
-///parametro 1. float km, es el dato km a validar
 
 float validarKilometros(float km){
     while(km<1){
@@ -50,7 +38,10 @@ float validarKilometros(float km){
 }
 
 
-///recibirOpcionSubmenu: SCANEA LA OPCION DE SUBMENU INGRESADA POR EL USUARIO
+void mostrarSubmenuAereolineas(){
+    printf("1- Aereolineas Argentinas. \n");
+	printf("2- LATAM. \n");
+}
 
 int recibirOpcionSubmenu(){
     int opcion;
@@ -62,10 +53,6 @@ int recibirOpcionSubmenu(){
     return opcion;
 }
 
-
-///validaropcionSubmenu: VALIDA LA OPCION INGRESADA, QUE SEA VALIDA. DE NO SERLO PEDIRA INGRESAR NUEVAMENTE.
-///parametro 1. int opcion, ingresa el valor de la opcion a validar
-
 int validaropcionSubmenu(int opcion){
     while(opcion<1 || opcion>2){
         printf("\n\nError en dato\n\n");
@@ -75,9 +62,6 @@ int validaropcionSubmenu(int opcion){
     return opcion;
 }
 
-
-///cargarPrecio: INGRESA EL USUARIO EL VALOR DEL VIAJE
-
 float cargarPrecio(){
     float precio;
     printf("\nIngrese el precio del Kilometros: ");
@@ -86,10 +70,6 @@ float cargarPrecio(){
     limpiarPantalla();
     return precio;
 }
-
-
-///validarPrecio: VALIDA QUE EL PRECIO INGRESADO SEA VALIDO. DE SER INVALIDO VUELVE A PEDIR DATO.
-///parametro 1. float precio, ingresa un precio a validar.
 
 float validarPrecio(float precio){
     while(precio<1){
@@ -102,7 +82,6 @@ float validarPrecio(float precio){
 }
 
 
-///confirmacionSalida: SE LE SOLICITARA AL USUARIO SI REALMENTE QUIERE SALIR. RETORNANDO TRUE O FALSE. 1/0
 
 int confirmacionSalida(){
     int continuar;
@@ -112,10 +91,6 @@ int confirmacionSalida(){
     limpiarPantalla();
     return continuar;
 }
-
-
-///validaropcionSalida: VALIDA QUE LA OPCION INGRESADA SEA VALIDA. SINO VUELVE A PEDIR QUE REINGRESE
-///parametro 1. int opcion, ingrea el valor input por usuario
 
 int validaropcionSalida(int opcion){
     while(opcion<0 || opcion>1){

@@ -87,8 +87,4 @@ void calcularTodosLosCostos(){
     limpiarPantalla();
 }
 
-///mostrarSubmenuAereolineas: MUESTRA POR PANTALLA SUB MENU DE AEREOLINEAS
-void mostrarSubmenuAereolineas(){
-    printf("1- Aereolineas Argentinas. \n");
-	printf("2- LATAM. \n");
-}
+

@@ -2775,3 +2775,44 @@ gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpr
 Info: Nothing to build for TP1
 Info: Nothing to build for TP1
 Info: Nothing to build for TP1
+12:34:05 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o "..\\funcionesImpresionPorPantallaTP1.c" 
+..\funcionesImpresionPorPantallaTP1.c: In function 'recibirOpcionMenuPrincipal':
+..\funcionesImpresionPorPantallaTP1.c:25:14: warning: implicit declaration of function 'validarOpcionMenuPrincipal'; did you mean 'recibirOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   25 |     opcion = validarOpcionMenuPrincipal(opcion, km, precioAA, precioLatam);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionMenuPrincipal
+..\funcionesImpresionPorPantallaTP1.c: In function 'calcularTodosLosCostos':
+..\funcionesImpresionPorPantallaTP1.c:44:5: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   44 |     delay(1);
+      |     ^~~~~
+..\funcionesImpresionPorPantallaTP1.c: At top level:
+..\funcionesImpresionPorPantallaTP1.c:56:6: warning: conflicting types for 'delay'
+   56 | void delay(int secs) {
+      |      ^~~~~
+..\funcionesImpresionPorPantallaTP1.c:44:5: note: previous implicit declaration of 'delay' was here
+   44 |     delay(1);
+      |     ^~~~~
+gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 
+12:34:28 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o "..\\funcionesImpresionPorPantallaTP1.c" 
+..\funcionesImpresionPorPantallaTP1.c: In function 'recibirOpcionMenuPrincipal':
+..\funcionesImpresionPorPantallaTP1.c:25:14: warning: implicit declaration of function 'validarOpcionMenuPrincipal'; did you mean 'recibirOpcionMenuPrincipal'? [-Wimplicit-function-declaration]
+   25 |     opcion = validarOpcionMenuPrincipal(opcion, km, precioAA, precioLatam);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              recibirOpcionMenuPrincipal
+gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 
+12:34:59 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o "..\\funcionesImpresionPorPantallaTP1.c" 
+gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 
+13:53:08 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesImpresionPorPantallaTP1.o "..\\funcionesImpresionPorPantallaTP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TP1.o "..\\TP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o dataInOutValidateTP1.o "..\\dataInOutValidateTP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o funcionesCalculosTP1.o "..\\funcionesCalculosTP1.c" 
+gcc -o TP1.exe TP1.o dataInOutValidateTP1.o funcionesCalculosTP1.o funcionesImpresionPorPantallaTP1.o 

@@ -2,7 +2,7 @@
  * funcionesImpresionPorPantallaTP1.c
  *
  *  Created on: 14 abr 2022
- *      Author: JDXMAX
+ *      Author: Juan
  */
 
 #include <stdio.h>
@@ -87,8 +87,4 @@ void calcularTodosLosCostos(){
     limpiarPantalla();
 }
 
-///mostrarSubmenuAereolineas: MUESTRA POR PANTALLA SUB MENU DE AEREOLINEAS
-void mostrarSubmenuAereolineas(){
-    printf("1- Aereolineas Argentinas. \n");
-	printf("2- LATAM. \n");
-}
+
